@@ -5,6 +5,39 @@
   font-family: "Gotham", sans-serif;
 }
 
+body {
+  background-color: #121148 !important;
+}
+
+button {
+  border: none;
+}
+
+button .button-git {
+  background-color: #ff6053;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  box-shadow: 7px 7px #4d49ff;
+}
+
+button .button-git a {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 3px;
+  padding-left: 1rem;
+}
+
+button .button-git a img {
+  height: 24px;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
 .row {
   margin: 0 !important;
 }
@@ -64,6 +97,7 @@
   position: sticky !important;
   top: 50px;
   width: 99.2vw;
+  z-index: 100;
 }
 
 .main-navbar .navbar-logo {
@@ -127,11 +161,6 @@
 
 /* .home  */
 
-.home {
-  min-height: 94.72vh;
-  background-color: #121148;
-}
-
 .home .home-left {
   display: flex;
   justify-content: center;
@@ -148,6 +177,13 @@
   padding-left: 4rem;
   padding-right: 4rem;
   padding-top: 4rem;
+  position: relative;
+}
+
+.home .home-right .seperator {
+  position: absolute;
+  left: -12px;
+  top: 25%;
 }
 
 .home .home-right .home-right-text h2 {
@@ -179,31 +215,6 @@
   display: flex;
   justify-content: end;
   padding-right: 3rem;
-}
-
-.home .home-right .home-right-button .button-git {
-  background-color: #ff6053;
-  height: 55px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: none;
-  box-shadow: 7px 7px #4d49ff;
-}
-
-.home .home-right .home-right-button .button-git a {
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: 3px;
-  padding-left: 1rem;
-}
-
-.home .home-right .home-right-button .button-git a img {
-  height: 24px;
-  padding-left: 2rem;
-  padding-right: 1rem;
 }
 
 .home .home-companies {
@@ -250,4 +261,163 @@
 .home-right .col-3 {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+/* Services */
+
+.services .services-content {
+  padding-left: 5rem;
+
+  padding-top: 4rem;
+}
+
+.services .services-content .services-left {
+  padding-right: 5rem;
+  position: relative;
+}
+
+.services .services-content .services-left h2 {
+  color: #ff6053;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.services .services-content .services-left h3 {
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 4.5px;
+  text-align: left;
+}
+
+.services .services-content .services-left p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 54px;
+  padding-top: 3rem;
+}
+
+.services .services-content .services-left .services-left-bg {
+  position: absolute;
+  left: -9rem;
+}
+
+.services
+  .services-content
+  .services-left
+  .services-left-bg
+  .services-left-human {
+  position: absolute;
+  left: 8rem;
+  top: 9rem;
+}
+
+.services .services-content .services-right .service-box {
+  padding: 3rem 5rem 2rem 2rem;
+  border: 1px solid #4d49ff;
+  border-collapse: collapse;
+}
+
+.services .services-content .services-right .service-box .service-box-header {
+  display: flex;
+  align-items: center;
+}
+
+.services .services-content .services-right .service-box .service-box-header {
+  padding-bottom: 2rem;
+}
+
+.services
+  .services-content
+  .services-right
+  .service-box
+  .service-box-header
+  .service-header-text {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.services
+  .services-content
+  .services-right
+  .service-box
+  .service-box-header
+  img {
+  padding-right: 2rem;
+}
+
+.services .services-content .services-right .service-box .service-info p {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 135%;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.services .services-content .col-12 {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
+.services .services-content .col-6 {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+.services .services-content .services-right .service-box .more-info-button {
+  display: flex;
+  justify-content: end;
+  padding-right: 3rem;
+}
+
+.services .services-content .services-bottom {
+  background-color: #ffffff;
+  box-shadow: 8px 8px #f1af12;
+  width: 70vw;
+  margin-left: 8vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 20rem;
+  position: relative;
+  z-index: 100;
+}
+
+.services .services-content .services-bottom .services-bottom-info {
+  display: flex;
+  align-items: center;
+}
+
+.services
+  .services-content
+  .services-bottom
+  .services-bottom-info
+  .services-bottom-info-text {
+  padding-right: 6rem;
+}
+
+.services
+  .services-content
+  .services-bottom
+  .services-bottom-info
+  .services-bottom-info-text
+  p {
+  color: #121148;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.services
+  .services-content
+  .services-bottom
+  .services-bottom-info
+  .services-bottom-info-text
+  h4 {
+  color: #121148;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
