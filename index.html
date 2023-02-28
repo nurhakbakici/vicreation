@@ -13,16 +13,23 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+
+    <!-- telefon için -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
   </head>
   <body>
     <div class="sticky-top">
-      <div class="content container-fluid">
+      <div class="content container-fluid overflow-hidden">
         <div class="row m-0">
-          <div class="col-6">
-            <div class="contact-info d-flex align-items-center">
-              <a class="contact-info-text phone-info" href="#">
+          <div class="col-6 pe-0">
+            <div class="contact-info d-flex align-items-center ps-3">
+              <a class="contact-info-text phone-info me-5" href="#">
                 <img
-                  class="img-fluid img-contact"
+                  class="img-fluid img-contact pe-2 pb-1"
                   src="./assets/phone_logo.png"
                   alt="phone-image"
                 />
@@ -30,7 +37,7 @@
               </a>
               <a class="contact-info-text" href="#">
                 <img
-                  class="img-fluid img-contact"
+                  class="img-fluid img-contact pe-2 pb-1"
                   src="./assets/mail_logo.png"
                   alt="mail-image"
                 />
@@ -45,7 +52,7 @@
                 href="https://www.linkedin.com/company/vicreation/?trk=ppro_cprof&originalSubdomain=tr"
               >
                 <img
-                  class="img-fluid img-social linkedin-logo"
+                  class="img-fluid img-social linkedin-logo p-0"
                   src="./assets/linkedin_logo.png"
                   alt="linkedin link"
                 />
@@ -59,24 +66,24 @@
               </a>
               <a href="https://www.facebook.com/Vicreationde/">
                 <img
-                  class="img-fluid img-social"
+                  class="img-fluid img-social p-0"
                   src="./assets/facebook_logo.png"
                   alt="facebook link"
                 />
               </a>
               <a href="https://twitter.com/vicreationde">
                 <img
-                  class="img-fluid img-social"
+                  class="img-fluid img-social p-0"
                   src="./assets/twitter_logo.png"
                   alt="twitter link"
                 />
               </a>
               <a
-                class="yt-logo"
+                class="yt-logo pe-0"
                 href="https://www.youtube.com/channel/UCcYf7vs3ijDjBwRbNeZogyQ"
               >
                 <img
-                  class="img-fluid img-social"
+                  class="img-fluid img-social p-0"
                   src="./assets/youtube_logo.png"
                   alt="youtube link"
                 />
@@ -122,7 +129,7 @@
           <p>DE</p>
         </div>
         <div class="en-lang">
-          <p>EN</p>
+          <p class="pb-2 ps-2 text-decoration-underline">EN</p>
         </div>
       </div>
       <div class="navbar-right">
@@ -134,7 +141,7 @@
       <div class="row">
         <div class="col-6">
           <div class="home-left img-fluid">
-            <img src="./assets/home-left-img.png" alt="" />
+            <img class="pe-5" src="./assets/home-left-img.png" alt="" />
           </div>
         </div>
         <div class="col-6">
@@ -148,7 +155,7 @@
                 We create <br />
                 limitless projects
               </h3>
-              <p>
+              <p class="pt-5">
                 Create your brand with soul. Count on Vicreation. <br />
                 Our Vision of Creation is Your Vision of <br />
                 improvement
@@ -170,7 +177,7 @@
         <div class="company-box-text">
           <p>BRANDS VI WORKED WITH</p>
         </div>
-        <div class="container-fluid company-bg">
+        <div class="container-fluid company-bg p-0">
           <div class="row">
             <div class="col-3">
               <div class="company-box">
@@ -225,8 +232,8 @@
           </div>
           <div class="col-6">
             <div class="services-right">
-              <div class="row">
-                <div class="col-12">
+              <di class="rowing">
+                <div class="service-box-wrapper me-0 pe-0">
                   <div class="service-box">
                     <div class="service-box-header">
                       <img src="./assets/service-tech.png" alt="laptop image" />
@@ -254,7 +261,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-12">
+                <div class="service-box-wrapper">
                   <div class="service-box">
                     <div class="service-box-header">
                       <img src="./assets/service-video.png" alt="video image" />
@@ -280,7 +287,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-12">
+                <div class="service-box-wrapper">
                   <div class="service-box">
                     <div class="service-box-header">
                       <img
@@ -311,7 +318,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-12">
+                <div class="service-box-wrapper">
                   <div class="service-box">
                     <div class="service-box-header">
                       <img src="./assets/service-tech.png" alt="laptop image" />
@@ -339,7 +346,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </di>
             </div>
           </div>
         </div>
@@ -364,11 +371,238 @@
     </section>
     <!-- selected works -->
     <!-- customers -->
+    <section class="customers">
+      <div class="customers-bg">
+        <img src="./assets/customers_bg.png" alt="" />
+      </div>
+      <div class="customer-header">
+        <h2>
+          TOMERS <span>CUSTOMERS</span> CUSTOMERS <span>CUSTOMERS</span> C
+        </h2>
+      </div>
+      <div class="container-fluid px-5">
+        <div class="rowing d-flex">
+          <div class="customer-box-wrapper ms-4">
+            <div class="customer-box">
+              <img src="./assets/company_logos/farmasi_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/elips_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/normada_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/kumsaati_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/solarsarj_logo.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="rowing d-flex">
+          <div class="customer-box-wrapper ms-4">
+            <div class="customer-box">
+              <img src="./assets/company_logos/tupperware_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/qimia_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/ekm_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/infrest_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/globacap_logo.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="rowing d-flex">
+          <div class="customer-box-wrapper ms-4">
+            <div class="customer-box">
+              <img
+                class="img-fluid"
+                src="./assets/company_logos/justyummy_logo.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/stewber_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/foss_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/bertelsmann_logo.png" alt="" />
+            </div>
+          </div>
+          <div class="customer-box-wrapper">
+            <div class="customer-box">
+              <img src="./assets/company_logos/swippr_logo.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="customers-footer">
+        <div class="footer-text">
+          <p>
+            ET'S TALK <span>+++</span> LET'S TALK <span>+++</span> LET'S TALK
+            <span>+++</span> LET'S TALK <span>+++</span> LET'S TALK<span
+              >+++</span
+            >
+            LET'S TALK<span>+++</span> LET'S TALK <span>+++</span> LET'S T
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contacts -->
+
+    <section class="contact">
+      <div class="contact-header">
+        <h2><span>NT TO SAY HELLO</span> WANT TO SAY HELL</h2>
+        <div class="contact-form-header">
+          <h3>For New Business Enquiries</h3>
+          <p>We'll connect you with the right expert</p>
+        </div>
+      </div>
+      <form>
+        <div class="contact-forms">
+          <div class="form-name">
+            <h5>Name and Surname*</h5>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-phone">
+            <h5 class="ms-0">Phone*</h5>
+            <input type="tel" name="phone" id="phone" placeholder=" &#160;" />
+          </div>
+          <div class="form-name">
+            <h5>E-Mail*</h5>
+            <input type="email" name="email" id="email" />
+          </div>
+        </div>
+      </form>
+      <div class="form-seperator-text">
+        <p>
+          For information on our privacy practices and commitment to protecting
+          your privacy, check out our <a href="#">Privacy Policy</a>.
+        </p>
+      </div>
+      <div class="recaptcha">
+        <div class="recaptcha-wrapper">
+          <input
+            class="bigger-input"
+            type="checkbox"
+            name="recaptcha"
+            id="recaptcha"
+          />
+          <p class="m-0">I'm not a robot</p>
+          <img src="./assets/recaptcha.png" alt="" />
+        </div>
+      </div>
+      <div class="contact-button">
+        <button>
+          <div class="button-git">
+            <a href="#"
+              >Start A Project <img src="./assets/arrow_right.png" alt="arrow"
+            /></a>
+          </div>
+        </button>
+      </div>
+      <div class="footer-seperator">
+        <img src="./assets/footer_seperator.png" alt="" class="img-fluid" />
+      </div>
+    </section>
+    <footer>
+      <section class="footer-top">
+        <div class="container mx-5 px-4">
+          <div class="footer-contact-info">
+            <div class="footer-logo">
+              <img src="./assets/vicreation_logo.png" alt="" />
+            </div>
+            <div class="germany-contact">
+              <div class="footer-contact">
+                <img
+                  class="mb-3 pb-2"
+                  src="./assets/location_logo.png"
+                  alt=""
+                />
+                <span
+                  >HAnnover (HQ) <br />
+                  <p>Lavesstraße 80, 30159 Hannover</p>
+                </span>
+              </div>
+              <div class="footer-contact">
+                <img src="./assets/white_phone_logo.png" alt="" />
+                <p>+49 221 8282 8366</p>
+              </div>
+              <div class="footer-contact">
+                <img src="./assets/white_mail_logo.png" alt="" />
+                <p>info@vicreation.de</p>
+              </div>
+            </div>
+            <div class="mini-seperator">
+              <img src="./assets/footer_mini_seperator.png" alt="" />
+            </div>
+            <div class="turkey-contact">
+              <div class="footer-contact">
+                <img
+                  class="mb-2 pb-5"
+                  src="./assets/location_logo.png"
+                  alt=""
+                />
+                <span
+                  >Istanbul <br />
+                  <p>
+                    Esentepe Mh. Büyükdere Cd. No:102/56 <br />
+                    Maya Akar Center Şişli/İstanbul
+                  </p>
+                </span>
+              </div>
+              <div class="footer-contact">
+                <img src="./assets/white_phone_logo.png" alt="" />
+                <p>+49 221 8282 8366</p>
+              </div>
+              <div class="footer-contact">
+                <img src="./assets/white_mail_logo.png" alt="" />
+                <p>info@vicreation.de</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer-bottom"></section>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="main.js"></script>
   </body>
 </html>
