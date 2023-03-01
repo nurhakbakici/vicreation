@@ -279,6 +279,13 @@ button .button-git a img {
   border-collapse: collapse;
 }
 
+/* .services .services-content .services-right .service-box:hover {
+  background-color: #f1af12;
+  position: absolute;
+  right: 10px;
+  max-width: 50vw;
+} */
+
 .services .services-content .services-right .service-box .service-box-header {
   display: flex;
   align-items: center;
@@ -597,4 +604,59 @@ button .button-git a img {
 
 .footer-contact img {
   margin-right: 1rem;
+}
+
+.contact-links {
+  margin-left: 3rem;
+  margin-top: 4rem;
+}
+
+.contact-links h5 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 54px;
+  letter-spacing: 2px;
+}
+
+.footer-bottom {
+  background-color: #f1af12;
+  border-bottom: 4px solid #121148;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 1rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.footer-bottom p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 0;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+.footer-bottom .footer-social-link {
+  margin-right: 3rem;
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+
+  text-align: center;
+}
+
+.footer-bottom .footer-social-link img {
+  margin-top: 1rem;
 }
