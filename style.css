@@ -153,6 +153,26 @@ button .button-git a img {
   top: 25%;
 }
 
+.scroll-down {
+  position: absolute;
+  z-index: 20;
+  font-size: 0.7rem;
+  font-weight: 700;
+  rotate: -90deg;
+  left: -48px;
+  bottom: 50px;
+}
+
+.scroll-down a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.scroll-down p img {
+  rotate: 90deg;
+  padding-right: 3px;
+}
+
 .home .home-right .home-right-text h2 {
   color: #f1af12;
   font-size: 36px;
